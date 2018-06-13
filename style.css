@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(182, 205, 50, 0.596);
+    overflow: scroll;
+    margin: 0%;
+    
+}
+
+img{
+    width: 20%;
+    
+}
+
+.topnav{
+    background-color: white;
+    overflow: hidden;
+
+}
+.topnav a{
+    float: right;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 20px ;
+    font-size: 18pt;
+    color: blue;
+
+}
+
+.topnav a:hover{
+    color: black;
+    background-color: aquamarine;
+    
+}
+
+.topnav a:active{
+    color: blueviolet;
+    background-color: coral;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    overflow: hidden;
+    top: 0%;
+}
+
+li a{
+    display: block;
+
+}
