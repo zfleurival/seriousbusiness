@@ -7,8 +7,9 @@
 
 
 img{
-    width: 20%;
-    
+    width: 80%;
+    height:auto !important;
+    margin: 3px auto;
 }
 
 .topnav{
